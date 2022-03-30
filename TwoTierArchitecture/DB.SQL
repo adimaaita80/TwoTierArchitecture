@@ -12,3 +12,10 @@ Create Table Users
 	Password nvarchar(50) not null
 )
 go
+
+Create Table Employees
+(
+	EmployeeId int Primary Key identity(1,1),
+	EmployeeFullName nvarchar(200) not null
+)
+go
